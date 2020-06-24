@@ -51,6 +51,12 @@ inquirer
     }
 ])
 .then (function(response){
+    //conditional statement for badge selection
+    let b = "";
+
+    if(response.license==="MIT"){
+        b = "abc";
+    }
 
 let readmeMarkdown =`
 # ${response.title}
@@ -87,6 +93,10 @@ ${response.tests}
 ### License
 
 ${response.license}
+
+###Badge
+
+${b}
 
 ### Questions
 
