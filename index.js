@@ -55,22 +55,22 @@ inquirer
     var badge;
     switch (response.license) {
         case "MIT":
-            badge = "MIT badge"
+            badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
             break;
         case "Apache":
             badge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
             break;
         case "GPLv2":
-            badge = "GPLv2 badge"
+            badge = `[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`
             break;
         case "GPLv3":
-            badge = "GPLv3 badge"
+            badge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
             break;
         case "BSD 2-clause":
-            badge = "BSD 2-clause badge"
+            badge = `[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`
             break;
         case "BSD 3-clause":
-            badge = "BSD 3-clause badge"
+            badge = `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`
             break;
         default:
             badge = "Insert badge here";
