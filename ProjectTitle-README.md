@@ -1,5 +1,5 @@
 
-# ok
+# Test Title
 
 ## Table of Contents
 - [Description](#Description)
@@ -12,27 +12,40 @@
 
 ### Description
 
-ok
+Test Description
 
 ### Installation
 
-ok
+Step 1 Step 2 Step 3
 
 ### Usage
 
-ok
+Instructions
 
 ### Contributing
 
-ok
+Contribution Guidelines
 
 ### Tests
 
-ok
+An example
 
 ### License
 
 Apache
+Copyright (c) 2020 aflavors
+
+            Licensed under the Apache License, Version 2.0 (the "License");
+            you may not use this file except in compliance with the License.
+            You may obtain a copy of the License at
+         
+              http://www.apache.org/licenses/LICENSE-2.0
+         
+            Unless required by applicable law or agreed to in writing, software
+            distributed under the License is distributed on an "AS IS" BASIS,
+            WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+            See the License for the specific language governing permissions and
+            limitations under the License.
 
 ### Badge
 
@@ -40,6 +53,6 @@ Apache
 
 ### Questions
 
-ok was created by [ok](https://github.com/ok).
+Test Title was created by [aflavors](https://github.com/aflavors).
 
-If you have any questions, please contact me at ok. 
+If you have any questions, please contact me at akeemflavors@gmail.com. 
