@@ -54,10 +54,12 @@ inquirer
 
     var badge;
     var licenseNotice;
+    var d = new Date();
+    var year = d.getFullYear();
     switch (response.license) {
         case "MIT":
             badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
-            licenseNotice = `Copyright (c) 2020 ${response.githubUsername}
+            licenseNotice = `Copyright (c) ${year} ${response.githubUsername}
 
             Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
             
@@ -67,7 +69,7 @@ inquirer
             break;
         case "Apache":
             badge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
-            licenseNotice = `Copyright (c) 2020 ${response.githubUsername}
+            licenseNotice = `Copyright (c) ${year} ${response.githubUsername}
 
             Licensed under the Apache License, Version 2.0 (the "License");
             you may not use this file except in compliance with the License.
@@ -83,7 +85,7 @@ inquirer
             break;
         case "GPLv2":
             badge = `[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`
-            licenseNotice = `Copyright (C) 2020  ${response.githubUsername}
+            licenseNotice = `Copyright (C) ${year}  ${response.githubUsername}
 
             This program is free software; you can redistribute it and/or
             modify it under the terms of the GNU General Public License
@@ -97,7 +99,7 @@ inquirer
             break;
         case "GPLv3":
             badge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
-            licenseNotice = `Copyright (C) 2020  ${response.githubUsername}
+            licenseNotice = `Copyright (C) ${year}  ${response.githubUsername}
 
             This program is free software: you can redistribute it and/or modify
             it under the terms of the GNU General Public License as published by
@@ -114,7 +116,7 @@ inquirer
             break;
         case "BSD 2-clause":
             badge = `[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`
-            licenseNotice = `Copyright 2020 ${response.githubUsername}
+            licenseNotice = `Copyright ${year} ${response.githubUsername}
 
             Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
             
@@ -126,7 +128,7 @@ inquirer
             break;
         case "BSD 3-clause":
             badge = `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`
-            licenseNotice = `Copyright 2020 ${response.githubUsername}
+            licenseNotice = `Copyright ${year} ${response.githubUsername}
 
             Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
             
