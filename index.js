@@ -92,6 +92,7 @@ inquirer
 
 let readmeMarkdown =`
 # ${response.title}
+${badge}
 
 ## Table of Contents
 - [Description](#Description)
@@ -124,12 +125,7 @@ ${response.tests}
 
 ### License
 
-${response.license}
 ${licenseNotice}
-
-### Badge
-
-${badge}
 
 ### Questions
 

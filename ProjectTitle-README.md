@@ -1,5 +1,6 @@
 
 # Test Title
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of Contents
 - [Description](#Description)
@@ -12,11 +13,11 @@
 
 ### Description
 
-Test Description
+Description
 
 ### Installation
 
-Step 1 Step 2 Step 3
+Steps
 
 ### Usage
 
@@ -24,15 +25,14 @@ Instructions
 
 ### Contributing
 
-Contribution Guidelines
+Guidelines
 
 ### Tests
 
-An example
+Example
 
 ### License
 
-Apache
 Copyright (c) 2020 aflavors
 
             Licensed under the Apache License, Version 2.0 (the "License");
@@ -46,10 +46,6 @@ Copyright (c) 2020 aflavors
             WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
             See the License for the specific language governing permissions and
             limitations under the License.
-
-### Badge
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ### Questions
 
