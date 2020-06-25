@@ -189,7 +189,7 @@ If you have any questions, please contact me at ${response.email}.
 `
     console.log(response);
 
-    fs.writeFile("ProjectTitle-README.md", readmeMarkdown, function(err){
+    fs.writeFile(`${response.title}-README.md`, readmeMarkdown, function(err){
         if (err){
             return console.log(err);
         }
