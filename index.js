@@ -51,11 +51,29 @@ inquirer
     }
 ])
 .then (function(response){
-    //conditional statement for badge selection
-    let b = "";
 
-    if(response.license==="MIT"){
-        b = "abc";
+    var badge;
+    switch (response.license) {
+        case "MIT":
+            badge = "MIT badge"
+            break;
+        case "Apache":
+            badge = "Apache badge"
+            break;
+        case "GPLv2":
+            badge = "GPLv2 badge"
+            break;
+        case "GPLv3":
+            badge = "GPLv3 badge"
+            break;
+        case "BSD 2-clause":
+            badge = "BSD 2-clause badge"
+            break;
+        case "BSD 3-clause":
+            badge = "BSD 3-clause badge"
+            break;
+        default:
+            badge = "Insert badge here";
     }
 
 let readmeMarkdown =`
@@ -94,9 +112,9 @@ ${response.tests}
 
 ${response.license}
 
-###Badge
+### Badge
 
-${b}
+${badge}
 
 ### Questions
 
