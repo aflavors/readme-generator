@@ -32,7 +32,7 @@ The application will be invoked with the following comand:
 
 ### Usage
 
-GIF/Screenshot here
+![](readme-generator.gif)
 
 ### License
 
